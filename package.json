@@ -1,0 +1,31 @@
+{
+  "name": "show-me-the-data",
+  "version": "1.0.0",
+  "description": "Sample API Server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/lynnaloo/show-me-the-data.git"
+  },
+  "keywords": [
+    "hapijs",
+    "nodejs"
+  ],
+  "author": "Linda Nichols <@lynnaloo>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lynnaloo/show-me-the-data/issues"
+  },
+  "homepage": "https://github.com/lynnaloo/show-me-the-data#readme",
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-cloudreach": "^1.0.2"
+  },
+  "dependencies": {
+    "@hapi/hapi": "^18.3.1"
+  }
+}
