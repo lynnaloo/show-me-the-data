@@ -10,16 +10,26 @@ const init = async () => {
       host: 'localhost'
     });
 
-    server.route({
-      method: 'GET',
-      path: '/',
-      handler: (request, h) => {
-        return {
-          'cats': 'awesome',
-          'dogs': 'also awesome'
-        };
+    server.route([
+      {
+        method: 'GET',
+        path: '/',
+        handler: (request, h) => {
+          return 'Welcome to the Pet Store';
+        }
+      }, {
+        method: 'GET',
+        path: '/pet',
+        handler: (request, h) => {
+          return {
+            'id': '123456789',
+            'name': 'Spot',
+            'photoUrl': 'www.cute.com',
+            'status': 'available'
+          };
+        }
       }
-    });
+    ]);
 
     await server.start();
     console.log('Server running on %s', server.info.uri);
