@@ -24,7 +24,8 @@
   "homepage": "https://github.com/lynnaloo/show-me-the-data#readme",
   "devDependencies": {
     "eslint": "^5.16.0",
-    "eslint-config-eslint": "^5.0.1"
+    "eslint-plugin-node": "^9.1.0",
+    "eslint-plugin-shopify": "^30.0.1"
   },
   "dependencies": {
     "@hapi/hapi": "^18.3.1"
