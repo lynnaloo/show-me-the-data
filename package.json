@@ -23,7 +23,7 @@
   "homepage": "https://github.com/lynnaloo/show-me-the-data#readme",
   "devDependencies": {
     "eslint": "^5.16.0",
-    "eslint-config-cloudreach": "^1.0.2"
+    "eslint-config-eslint": "^5.0.1"
   },
   "dependencies": {
     "@hapi/hapi": "^18.3.1"

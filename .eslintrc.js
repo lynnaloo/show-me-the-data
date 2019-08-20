@@ -1,3 +1,3 @@
 module.exports = {
-    'extends': 'cloudreach/es8'
+    'extends': 'eslint'
 };
