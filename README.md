@@ -1,4 +1,6 @@
-Sample API Server
+# Sample API Server
+
+[![Build Status](https://dev.azure.com/lynnaloo/show-me-the-data/_apis/build/status/lynnaloo.show-me-the-data?branchName=master)](https://dev.azure.com/lynnaloo/show-me-the-data/_build/latest?definitionId=3&branchName=master)
 
 ## Installation
 
